@@ -1,0 +1,13 @@
+.catalog {
+    padding-top: 60px;
+    padding-bottom: 119px;
+    background-color: rgba(243, 245, 250, 1);
+}
+
+.catalog__list {
+    margin-top: 49px;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    flex-wrap: wrap;
+}

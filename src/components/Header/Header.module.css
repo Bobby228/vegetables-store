@@ -1,0 +1,45 @@
+.header {
+    background-color: #fff;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header__link {
+    padding-left: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: rgba(247, 247, 247, 1);
+    border-radius: 31px;
+}
+
+.header__link span {
+    padding: 4px 12px;
+    color: white;
+    background-color: rgba(84, 180, 106, 1);
+    border-radius: 31px;
+}
+
+.header__count {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    color: black;
+    line-height: 20px;
+    text-align: center;
+}
+
+.header__kg {
+    font-size: 14px;
+    color: rgba(134, 142, 150, 1);
+    font-weight: 400;
+    text-transform: lowercase;
+}
