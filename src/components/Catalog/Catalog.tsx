@@ -31,8 +31,6 @@ const Catalog = () => {
     getData()
   }, [])
 
-  console.log(vegs)
-
   return (
     <div className={styles.catalog}>
       <div className="container">
