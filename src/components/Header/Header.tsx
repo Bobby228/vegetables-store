@@ -34,6 +34,7 @@ const Header = () => {
         shadow="md"
         radius="md"
         width={340}
+        floatingStrategy="fixed"
       >
         <Popover.Target>
           <Button
@@ -94,7 +95,7 @@ const Header = () => {
                         –
                       </Button>
 
-                      <Text fw={600} w={20} ta="center">
+                      <Text fw={600} ta="center">
                         {item.count}
                       </Text>
 

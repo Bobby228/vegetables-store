@@ -27,14 +27,15 @@
 }
 
 .header__count {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     border-radius: 50%;
-    color: black;
-    line-height: 20px;
     text-align: center;
+    color: black;
 }
 
 .header__kg {
